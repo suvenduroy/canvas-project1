@@ -1,0 +1,156 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+button:focus {
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+a {
+  color: #1b70bb;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#main{
+  position: relative;
+  overflow: hidden;
+}
+#page1{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  
+}
+canvas{
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+}
+.page1-content{
+  position: absolute;
+  left: 50%;
+  top:40%;
+  transform: translate(-50%, -50%);
+  z-index: 11;
+  text-align: center;
+}
+.page1-content h3{
+  position: relative;
+  width: 100%;
+  font-size: 70px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.page1-content h5{
+  position: relative;
+  width: 100%;
+  font-size: 25px;
+  font-weight: 600;
+}
+#page2{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #e6e3da;
+}
+.page2-content{
+  position: absolute;
+  left: 50%;
+  top:40%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+  text-align: center;
+}
+.page2-content h3{
+  position: relative;
+  width: 100%;
+  font-size: 70px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.page2-content h5{
+  position: relative;
+  width: 100%;
+  font-size: 25px;
+  font-weight: 600;
+}
+#page1-space{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+}
+
+#page3{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+  z-index: 99;
+}
+
+#page4{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #e4e0dd;
+  z-index: 99;  
+}
+.page4-content{
+  position: absolute;
+  left: 50%;
+  top:40%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+  text-align: center;
+}
+.page4-content h3{
+  position: relative;
+  width: 100%;
+  font-size: 70px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.page4-content h5{
+  position: relative;
+  width: 100%;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+#page5{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+.zoom-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#page6{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: yellow;
+}
+
